@@ -21,10 +21,10 @@ Heute habe ich die Aufträge, welche ich am 21.08.2024 nicht bearbeiten konnte, 
 
 ### 30.08.2024
 
-- [ ] Ich erstelle den Helden, zwei kleine Gegner und einen grossen Gegner.
+- [ ] Ich erstelle den Helden, zwei kleine Gegner und einen grossen Gegner
   
-- [ ] Ich erstelle drei verschiedene Waffen, auswelchen man am Start aussuchen kann.
+- [ ] Ich erstelle drei verschiedene Waffen, auswelchen man am Start aussuchen kann
   
-- [ ] Ich erstelle die ersten drei bis fünf Entscheidungen.
+- [ ] Ich erstelle die ersten drei bis fünf Entscheidungen
   
-- [ ] (Arbeit am Modul)
+- [ ] Ich bearbeite Auftrag 0501 Barrierefreiheit Testen von M322
