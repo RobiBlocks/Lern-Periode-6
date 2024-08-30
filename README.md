@@ -21,10 +21,23 @@ Heute habe ich die Aufträge, welche ich am 21.08.2024 nicht bearbeiten konnte, 
 
 ### 30.08.2024
 
-- [ ] Ich erstelle den Helden, zwei kleine Gegner und einen grossen Gegner
+- [x] Ich erstelle den Helden, zwei kleine Gegner und einen grossen Gegner
   
-- [ ] Ich erstelle drei verschiedene Waffen, auswelchen man am Start aussuchen kann
+- [x] Ich erstelle drei verschiedene Waffen, auswelchen man am Start aussuchen kann
   
 - [ ] Ich erstelle die ersten drei bis fünf Entscheidungen
   
-- [ ] Ich bearbeite Auftrag 0501 Barrierefreiheit Testen von M322
+- [x] Ich bearbeite Auftrag 0501 Barrierefreiheit Testen von M322
+  
+
+Heute habe ich mit meinem RPG gestartet. Ich habe für die Helden, die Gegner, die Schwerte und die Bögen Klassen erstellt. Ich habe auch schon mit dem Start des Games begonnen. Ich kam aber nicht so weit wie erwartet. Zum Schluss habe ich den Auftrag 0501 von M322 zusammen mit Szymon bearbeitet. (52 Wörter)
+
+### 06.09.2024
+
+- [ ] Ich programmiere, das man zwischen seinen Waffen wechslen kann
+  
+- [ ] Ich erstelle die ersten drei kämpfe
+  
+- [ ] Ich erstelle eine Heilen, Verteidigen und Flüchten Methode für den Charakter
+  
+- [ ] (Arbeit am Modul)
