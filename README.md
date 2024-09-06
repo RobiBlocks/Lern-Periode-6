@@ -34,10 +34,23 @@ Heute habe ich mit meinem RPG gestartet. Ich habe für die Helden, die Gegner, d
 
 ### 06.09.2024
 
-- [ ] Ich programmiere, dass man zwischen seinem Schwert und Bogen wechseln kann
+- [x] Ich programmiere, dass man zwischen seinem Schwert und Bogen wechseln kann
   
-- [ ] Ich erstelle die ersten drei kämpfe
+- [x] Ich erstelle die ersten drei kämpfe
   
 - [ ] Ich erstelle eine Heilen, Verteidigen und Flüchten Methode für die Heros
   
 - [x] Ich bearbeite Auftrag 1714 Passwortmanager von M231
+  
+
+Heute habe ich das Kampfsystem meines RPGs erstellt. Man kann nun sagen womit man Angreifen möchte. Der Gegner hat kein Schwert und Bogen mehr, er hat nur noch eine Weapon, da dies einfacher ist zu programmieren. Es wird beim kämpfen sogar der Speed einbezogen, sodass wenn der langsamere stirbt bevor er in jener Runde angreifen kann, dem Schnelleren keine Leben mehr abziehen kann. Nach ein paar Fehlern bei der Anzeige habe ich noch zwei zusätzliche Kämpfe hinzugefügt. (77 Wörter)
+
+### 13.09.2024
+
+- [ ] Ich programmiere Spezialeffekte wie Verbrennung, Gift etc. (Wie in Pokémon)
+  
+- [ ] Ich erweitere mein Game, um einen Heilpilz, welchen man mit einer gewissen Wahrscheinlichkeit erhält nachdem man gegen einen Gegner gekämpft hat
+  
+- [ ] Ich erstelle eine Methode, die alle Items anzeigt und eine Methode, mitwelcher man Items verwenden kann
+  
+- [ ] Ich bearbeite einen Auftrag aus M320
