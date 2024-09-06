@@ -34,10 +34,10 @@ Heute habe ich mit meinem RPG gestartet. Ich habe für die Helden, die Gegner, d
 
 ### 06.09.2024
 
-- [ ] Ich programmiere, das man zwischen seinen Waffen wechsel n kann
+- [ ] Ich programmiere, dass man zwischen seinem Schwert und Bogen wechseln kann
   
 - [ ] Ich erstelle die ersten drei kämpfe
   
-- [ ] Ich erstelle eine Heilen, Verteidigen und Flüchten Methode für den Charakter
+- [ ] Ich erstelle eine Heilen, Verteidigen und Flüchten Methode für die Heros
   
 - [x] Ich bearbeite Auftrag 1714 Passwortmanager von M231
