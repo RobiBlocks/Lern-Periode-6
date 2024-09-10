@@ -3,6 +3,7 @@ using BlueDragon.Item;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,37 +13,81 @@ namespace BlueDragon
     {
         static void Main(string[] args)
         {
+            //Held
             Hero character = new Hero(100, 20);
 
+            //Held Waffen
             Sword fireSword = new Sword("Feuerschwert", 10, 20, "Feuer");
             Sword iceSword = new Sword("Eisschwert", 6, 40, "Eis");
             Sword electricSword = new Sword("Elektroschwert", 8, 30, "Elektro");
 
             Bow poisonBow = new Bow("Giftbogen", 3, 25, "Gift");
 
+            //Heilungsitems
+            Healing healingPotion1 = new Healing("Heilungstrank I", "Wenn du diesen Trank einsetzt, regenerierst du 20 Lebenspunkte.", 20);
+            Healing healingPotion2 = new Healing("Heilungstrank II", "Wenn du diesen Trank einsetzt, regenerierst du 40 Lebenspunkte.", 40);
+
             Start(character, fireSword, iceSword, electricSword, poisonBow);
 
+            //Gegner Waffen
             Weapon slingshot = new Weapon("Steinschleuder", 5, 10, "Stein");
+            Weapon waterCannon = new Weapon("Wasserkanone", 10, 12, "Wasser");
+            Weapon punch = new Weapon("Faustschlag", 15, 8, "Mensch");
 
+            //Gegner World 1
             Enemie goblin = new Enemie("Greg", 20, 30, slingshot);
             Enemie sushi = new Enemie("Reis", 10, 40, slingshot);
             Enemie dragon = new Enemie("Blue Dragon", 300, 10, slingshot);
 
-            Healing healingPotion1 = new Healing("Heilungstrank I", "Wenn du diesen Trank einsetzt, regenerierst du 20 Lebenspunkte.", 20);
-            Healing healingPotion2 = new Healing("Heilungstrank II", "Wenn du diesen Trank einsetzt, regenerierst du 40 Lebenspunkte.", 40);
+            //Gegner World 2
+            Enemie crab = new Enemie("Clap", 25, 15, waterCannon);
+            Enemie shark = new Enemie("Sharki", 30, 30, waterCannon);
 
-            //Story
+            //Gegner World 3
+            Enemie monkey = new Enemie("Louie", 30, 25, punch);
+            Enemie snake = new Enemie("Phytor", 20, 24, waterCannon);
+
+            //Story World 1
             for (int i = 0; i < 10; i++)
             {
                 AuftauchenGegner(character, goblin, sushi, healingPotion1);
+                if (character.Health <= 0)
+                {
+                    break;
+                }
                 goblin.Health = 20;
                 sushi.Health = 10;
                 Console.WriteLine("Du gehst weiter");
+            }
 
-                if (i == 9)
+            char richtung = '0';
+            if (character.Health > 0)
+            {
+                Console.WriteLine("Du bist mit der 1. Welt fertig");
+                Console.WriteLine("Du kommt an eine Abzweigung. Es gibt ein Schild:\r\n1) Wald\r\n2) Meer");
+                ConsoleKeyInfo key = Console.ReadKey(true);
+                richtung = key.KeyChar;
+            }
+
+            //Story World 2
+            if (richtung == '1')
+            {
+                for (int i = 0; i < 10; i++)
                 {
-                    Console.WriteLine("Du bist am Ende der DEMO angelangt.");
+                    AuftauchenGegner(character, crab, shark, healingPotion1);
+                    crab.Health = 25;
+                    shark.Health = 30;
+                    Console.WriteLine("Du gehst weiter");
                 }
+            }
+
+            //Story World 3
+            else if (richtung == '2')
+            {
+                AuftauchenGegner(character, monkey, snake, healingPotion1 );
+                monkey.Health = 30;
+                snake.Health = 20;
+                Console.WriteLine("Du gehst weiter");
             }
         }
 
@@ -108,7 +153,7 @@ namespace BlueDragon
                 if (player.Speed > enemies[random].Speed)
                 {
                     Console.WriteLine("Möchtest angreifen oder ein Item einsetzen?\r\n1) Angreifen\r\n2) Item einsetzen");
-                    ConsoleKeyInfo key = Console.ReadKey();
+                    ConsoleKeyInfo key = Console.ReadKey(true);
                     char itemOrFight = key.KeyChar;
 
                     if(itemOrFight == '2')
@@ -219,7 +264,7 @@ namespace BlueDragon
         static void AuftauchenHeilungsItem(Hero player, Healing itemHealing)
         {
             Random die = new Random();
-            int itemProbability = die.Next(0, 1);
+            int itemProbability = die.Next(0, 4);
             if (itemProbability == 0)
             {
                 Console.WriteLine("Du erhälst einen " + itemHealing.Name + "!");
