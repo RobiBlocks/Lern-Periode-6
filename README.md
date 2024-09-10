@@ -1,4 +1,4 @@
-# Lernperiode 6
+Lernperiode 6
 
 ## Grobplanung
 
@@ -49,8 +49,24 @@ Heute habe ich das Kampfsystem meines RPGs erstellt. Man kann nun sagen womit ma
 
 - [ ] Ich programmiere Spezialeffekte wie Verbrennung, Gift etc. (Wie in Pokémon)
   
-- [ ] Ich erweitere mein Game, um einen Heilpilz, welchen man mit einer gewissen Wahrscheinlichkeit erhält nachdem man gegen einen Gegner gekämpft hat
+- [x] Ich erweitere mein Game, um einen Heiltrank, welchen man mit einer gewissen Wahrscheinlichkeit erhält nachdem man gegen einen Gegner gekämpft hat
   
-- [ ] Ich erstelle eine Methode, die alle Items anzeigt und eine Methode, mitwelcher man Items verwenden kann
+- [ ] Ich erstelle eine Methode, mitwelcher man Items verwenden kann und verwende diese in program.cs
   
-- [ ] Ich bearbeite einen Auftrag aus M320
+- [x] Ich erstelle eine Entscheidung, welche bestimmt, ob man Unterwasser geht oder durch einen Wald
+  
+
+Heute habe ich eine Klasse für Heilitems erstellt. Nun erhält man mit einer Chance von 25% ein Heilitem, wenn man einen Gegner besiegt. Anschliessend habe ich eine Methode erstellt, welche ein Heilitem einsetzen kann. Allerdings gab es viele Fehler und einen konnte ich nicht selbst beheben, weshalb ich eine Email an Herrn Colic schreiben musste, ob er mir helfen könne. Zum Abschluss habe ich eine 2. und 3. Welt mit neuen Gegnern erstellt.
+
+### 20.09.2024
+
+- [ ] Ich schaue, den Fehler in meinem RPG mit Herrn Colic an
+  
+- [ ] Ich erstelle für das Eisschwert den Effekt "Einfrieren", sodass wenn man ein Gegner angreift, dieser in der nächsten Runde nicht angreifen kann
+  
+- [ ] Wenn der Gegner angreift soll der Benutzer benachrichtigt werden, über erhaltenen Schaden. Es soll ersichtlich sein Wer in welcher Reihenfolge angreift.
+  
+- [ ] (Arbeit an einem Auftrag eines Moduls)
+  
+
+Heute habe ich..
