@@ -60,13 +60,13 @@ Heute habe ich eine Klasse für Heilitems erstellt. Nun erhält man mit einer Ch
 
 ### 20.09.2024
 
-- [ ] Ich schaue, den Fehler in meinem RPG mit Herrn Colic an
+- [ ] Ich schaue, dass Problem in meinem Programm mit Herrn Colic an
   
-- [ ] Ich erstelle für das Eisschwert den Effekt "Einfrieren", sodass wenn man ein Gegner angreift, dieser in der nächsten Runde nicht angreifen kann
+- [ ] Arvin und ich erstellen 4 Szenarien und 6 User Stories für das Projekt in M322
   
-- [ ] Wenn der Gegner angreift soll der Benutzer benachrichtigt werden, über erhaltenen Schaden. Es soll ersichtlich sein Wer in welcher Reihenfolge angreift.
+- [ ] Arvin und ich erstellen den Low-Fidelity Prototyp für das Projekt in M322
   
-- [ ] (Arbeit an einem Auftrag eines Moduls)
+- [ ] Arvin und ich evaluieren den Low-Fidelity Protoyp für das Projekt in M322
   
 
 Heute habe ich..
