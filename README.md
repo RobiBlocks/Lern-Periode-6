@@ -1,4 +1,4 @@
-Lernperiode 6
+# Lernperiode 6
 
 ## Grobplanung
 
@@ -56,17 +56,28 @@ Heute habe ich das Kampfsystem meines RPGs erstellt. Man kann nun sagen womit ma
 - [x] Ich erstelle eine Entscheidung, welche bestimmt, ob man Unterwasser geht oder durch einen Wald
   
 
-Heute habe ich eine Klasse für Heilitems erstellt. Nun erhält man mit einer Chance von 25% ein Heilitem, wenn man einen Gegner besiegt. Anschliessend habe ich eine Methode erstellt, welche ein Heilitem einsetzen kann. Allerdings gab es viele Fehler und einen konnte ich nicht selbst beheben, weshalb ich eine Email an Herrn Colic schreiben musste, ob er mir helfen könne. Zum Abschluss habe ich eine 2. und 3. Welt mit neuen Gegnern erstellt.
+Heute habe ich eine Klasse für Heilitems erstellt. Nun erhält man mit einer Chance von 25% ein Heilitem, wenn man einen Gegner besiegt. Anschliessend habe ich eine Methode erstellt, welche ein Heilitem einsetzen kann. Allerdings gab es viele Fehler und einen konnte ich nicht selbst beheben, weshalb ich eine Email an Herrn Colic schreiben musste, ob er mir helfen könne. Zum Abschluss habe ich eine 2. und 3. Welt mit neuen Gegnern erstellt. (73 Wörter)
 
 ### 20.09.2024
 
-- [ ] Ich schaue, dass Problem in meinem Programm mit Herrn Colic an
+- [x] Ich schaue, dass Problem in meinem Programm mit Herrn Colic an
   
-- [ ] Arvin und ich erstellen 4 Szenarien und 6 User Stories für das Projekt in M322
+- [x] Arvin und ich erstellen 4 Szenarien und 6 User Stories für das Projekt in M322
   
 - [ ] Arvin und ich erstellen den Low-Fidelity Prototyp für das Projekt in M322
   
 - [ ] Arvin und ich evaluieren den Low-Fidelity Protoyp für das Projekt in M322
   
 
-Heute habe ich..
+Heute habe ich den Fehler aus meinem RPG beseitigt. Das Item "Leer" existiert nicht mehr. Es wird nun überprüft, ob ein Slot null ist oder nicht. Danach habe ich mit Arvin vier Szenarien und sechs User Stories erstellt. Im Anschluss haben Arvin und ich mit dem Low-Fidelity-Prototyp begonnen. Allerdings sind wir nicht fertig geworden. (54 Wörter)
+
+### 27.09.2024
+
+- [ ] Ich erstelle für das Eisschwert den Effekt "Einfrieren", sodass wenn man ein Gegner angreift, dieser in der nächsten Runde nicht angreifen kann
+  
+- [ ] Wenn der Gegner angreift soll der Benutzer benachrichtigt werden, über erhaltenen Schaden. Es soll ersichtlich sein Wer in welcher Reihenfolge angreift
+  
+- [ ] Ich bearbeite die Klassen, sodass Schwert und Bogen von einer Waffenklasse, Heiltränke von einer Items Klasse und Heros und Enemies von einer Character Klasse erben und putze den Code
+  
+
+Heute habe ich...
