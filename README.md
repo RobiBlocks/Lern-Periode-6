@@ -91,4 +91,5 @@ Heute habe ich vorallem meinen Code geputzt und den Code leserlich gemacht. Als 
 ## Reflexion
 
 Diese LP habe ich mit dem Nacharbeiten der Aufträge des M320 - OOP begonnen. Danach habe ich mich an ein eigenes Projekt gewagt, genauer gesagt das RPG Spiel Blue Dragon. Zuerst habe ich Helden, Gegner und Waffen erstellt. Dann habe ich das Kampfsystem erstellt. Anschliessend habe ich einen Heiltrank implementiert. Danach haben Arvin und ich am Projekt für M322 gearbeitet. Zum Abschluss habe ich den Code noch rausgeputzt und finalisiert.
+
 Dieses Lernatelier hat sehr viel Spass gemacht, da ich zum ersten Mal ein interaktives und fantsievolles Spiel erstellen konnte. Eigentlich programmiere ich im Lernatelier immer die Ideen, die mir bei der Planung und dem Programmieren in den Sinn kommen. Sobald sich viele Aufträge aus den Modulen anhäufen bearbeite ich diese. (120 Wörter)
