@@ -1,5 +1,9 @@
 # Lernperiode 6
 
+## Fertiges Projekt
+
+![BlueDragon](https://github.com/user-attachments/assets/0c12a3bc-0512-4f07-a347-a88948345df4)
+
 ## Grobplanung
 
 - Ich möchte ein kleines textbasiertes Game mit ObjektOrientierterProgrammierung erstellen. Es soll einen Charakter geben, der Angreifen, Leben verlieren usw. kann. Es wird Verbündete, Händler und Gegner geben.
