@@ -80,6 +80,7 @@ namespace BlueDragon
                     shark.Health = 30;
                     Console.WriteLine("Du gehst weiter");
                 }
+                Console.WriteLine("Du hast das Abenteuer erfolgreich beendet!");
             }
 
             //Story World 3
@@ -90,6 +91,7 @@ namespace BlueDragon
                 snake.Health = 20;
                 Console.WriteLine("Du gehst weiter");
             }
+            Console.WriteLine("Du hast das Abenteuer erfolgreich beendet!");
         }
 
         static void Start(Hero player, Sword sword1, Sword sword2, Sword sword3, Bow bow)
