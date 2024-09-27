@@ -5,12 +5,12 @@
 ![BlueDragon](https://github.com/user-attachments/assets/0c12a3bc-0512-4f07-a347-a88948345df4)
 
 - Grundprinzip
-    1. Am Anfang kann man in diesem Game eine Waffe aussuchen
-    2. Danach erscheinen immer wieder neue Gegner. Nach zehn besiegten Gegner gelangt man in die nächste Welt
-    3. Das Spiel ist zu Ende, wenn man stirbt oder alle Welten überlebt hat
+    - Am Anfang kann man in diesem Game eine Waffe aussuchen
+    - Danach erscheinen immer wieder neue Gegner. Nach zehn besiegten Gegner gelangt man in die nächste Welt
+    - Das Spiel ist zu Ende, wenn man stirbt oder alle Welten überlebt hat
 - Items
-    1. Wenn man einen Gegner besiegt kann man einen Heilungstrank bekommen
-    2. Die Wahrscheinlichkeit liegt bei 20%
+    - Wenn man einen Gegner besiegt kann man einen Heilungstrank bekommen
+    - Die Wahrscheinlichkeit liegt bei 20%
  
 Viel Spass beim entdecken des Spiels, der Welten und den Gegnern ;)
 
@@ -86,4 +86,6 @@ Heute habe ich den Fehler aus meinem RPG beseitigt. Das Item "Leer" existiert ni
 
 - [x] Ich bearbeite die Klassen, sodass Schwert und Bogen von einer Waffenklasse, Heiltränke von einer Items Klasse und Heros und Enemies von einer Character Klasse erben und putze den Code
 
-Heute habe ich...
+Heute habe ich vorallem meinen Code geputzt und den Code leserlich gemacht. Als erstes habe ich die Superklassen "Equipment", "Items" und "Character" erstellt. Nun sind Attribute wie Name, Beshchreibung und Power nicht mehr doppelt aufgeführt. Danach habe ich geschaut, das der Bildschirm im richtigen Moment geleert wird. Da ich am Schluss noch Zeit übrig hatte habe ich nach Fehlern gesucht und bei den Strings die Interpolation implementiert. (67 Wörter)
+
+## Reflexion
