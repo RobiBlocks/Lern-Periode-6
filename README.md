@@ -4,6 +4,16 @@
 
 ![BlueDragon](https://github.com/user-attachments/assets/0c12a3bc-0512-4f07-a347-a88948345df4)
 
+- Grundprinzip
+    1. Am Anfang kann man in diesem Game eine Waffe aussuchen
+    2. Danach erscheinen immer wieder neue Gegner. Nach zehn besiegten Gegner gelangt man in die nächste Welt
+    3. Das Spiel ist zu Ende, wenn man stirbt oder alle Welten überlebt hat
+- Items
+    1. Wenn man einen Gegner besiegt kann man einen Heilungstrank bekommen
+    2. Die Wahrscheinlichkeit liegt bei 20%
+ 
+Viel Spass beim entdecken des Spiels, der Welten und den Gegnern ;)
+
 ## Grobplanung
 
 - Ich möchte ein kleines textbasiertes Game mit ObjektOrientierterProgrammierung erstellen. Es soll einen Charakter geben, der Angreifen, Leben verlieren usw. kann. Es wird Verbündete, Händler und Gegner geben.
